@@ -11,7 +11,7 @@ import h5py
 import matplotlib.pyplot as plt
 from pathlib import Path
 import cftime
-import os
+
 # Stuff to make the plots have nicely formated time axes
 import datetime
 import matplotlib.dates as mdates
@@ -21,7 +21,7 @@ import matplotlib.units as munits
 import os
 import requests
 import numpy as np
-import scipy
+import scipy # converts polygon to ping-based formats
 import math
 
 converter = mdates.ConciseDateConverter()
