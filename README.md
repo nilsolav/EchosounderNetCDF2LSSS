@@ -5,3 +5,6 @@ This repository comprises of two main functions:
   - The region will be defined to include both _in_ and _on_ the region outline. Donut shapes will be supported.
   - Background information can be found here: [https://docs.google.com/document/d/1F5ub9-ElnGWgoFzOhwrNiAB6fZRhKI8Nw6FskMhzI0g/edit#heading=h.ihw2gdxqw9td]
 2. Post the regions and masks to LSSS via API
+  - timefixer ought to be debugged in nc writer
+  - multiple shapes of polygon supported
+  - nc writer for surveys shall be updated [currently write empty arrays of the range variable]
